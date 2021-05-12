@@ -30,9 +30,9 @@ eemail = email.CreateItem(0)
 eemail.To = "para o email:"
 eemail.Subject = "Assunto"
 eemail.HTMLBody = """
-<p>Olá Fernando</p>
+<p>Olá Destinatário</p>
 <p>Tudo bem contigo?</p>
-<p>Que bom, gostoso</p>
+<p>Que bom, SEGUE ANEXO</p>
 """
 ########anexo##########
 anexo = ('C:\Semanapython\nomeexcel.xlsx')
